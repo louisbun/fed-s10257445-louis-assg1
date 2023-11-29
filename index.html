@@ -20,7 +20,7 @@
             margin: auto;
             overflow: hidden;
             padding-top:100px;
-            height: 700px;
+            height: 450px;
         }
         .slides {
             display: flex;
@@ -44,26 +44,48 @@
             font-size: large;
             background-color: rgb(48, 128, 128);
         }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -100px;
+        }
+    
+        .description{
+            width: 500px;
+            height: 160px;
+            border-radius: 25px;
+            background-color:darkslateblue;
+            color:whitesmoke;
+            z-index: 1;
+        }
+        .button{
+            display: flex;
+            justify-content: center;
+        }
     </style>
+    
 </head>
 
 <body>
     <header> <div w3-include-html="header.html"></div></header>
     <section class="slider">
         <div class="slides">
-            <div class="slide"><img src="https://picsum.photos/200/300" alt="Slide 1"></div>
-            <div class="slide"><img src="https://picsum.photos/200/300" alt="Slide 2"></div>
-            <div class="slide"><img src="https://picsum.photos/200/300" alt="Slide 3"></div>
+            <div class="slide"><img src="pic/s1.jpg" alt="Slide 1"></div>
+            <div class="slide"><img src="pic/s2.jpg" alt="Slide 2"></div>
+            <div class="slide"><img src="pic/s3.jpg" alt="Slide 3"></div>
         </div>
     </section>
-    <section class = 'description'>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <button>View More</button>
+    <section class = 'container'>
+        <div class = 'description'>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
     </section>
+    <div class = 'button'><button>View More</button></div>
 
 <script>
     // JavaScript for the image slider
