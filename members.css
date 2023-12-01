@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(18, 86, 86);
+}
+.container{
+    display:flex;
+    flex-direction: row;
+}
+.about{
+    margin: 80px;
+}
+.socials img{
+    height: 40px;
+    width: 40px;
+    margin: 3px;
+}
+p{
+    font-family: 'Kanit', sans-serif;
+}
+h1{
+    font-family: 'Exo 2', sans-serif;
+}
+.profile{
+    height: 410px;
+    width: 420px;
+}
