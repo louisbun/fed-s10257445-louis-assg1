@@ -1,0 +1,15 @@
+.title{
+    background-color:rgb(72, 111, 111);
+    width: 561px;
+    height:25px;
+}
+.title h4{
+    display:flex;
+    justify-content: center;
+    font-family: 'Exo 2', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 60px;
+}
