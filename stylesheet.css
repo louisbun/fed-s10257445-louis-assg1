@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    background-color: rgb(133, 128, 137);
+    background-image: url('pic/concert.gif'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 800px; 
+    margin: auto;
+    overflow: hidden;
+    padding-top:50px;
+    height: 450px;
+}
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    height: 55%;
+    display: block;
+}
+.description{
+    text-align: center;
+}
+button{
+    height:40px;
+    width: 230px;
+    font-size: large;
+    background-color: rgb(80, 135, 135);
+    font-family: 'Kanit', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px;
+}
+.description{
+    width: 500px;
+    height: 210px;
+    border-radius: 25px;
+    background-color:darkslateblue;
+    color:whitesmoke;
+    z-index: 1;
+    font-family: 'Kanit', sans-serif;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
