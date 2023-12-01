@@ -1,0 +1,32 @@
+.show{
+    display: flex;
+    flex-direction:row;
+    margin: 50px;
+}
+.detail{
+    background-color:darkslategray;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    height:70px;
+    margin-right: 100px;
+    width: 1250px;
+}
+.detail p{
+    margin-left: 80px;
+    margin-right: 100px;
+    font-size: larger;
+    font-family: 'Kanit', sans-serif;
+}
+button{
+    background-color: darkslategray;
+    height:70px;
+    width: 190px;
+    color:aliceblue;
+    font-size: large;
+    font-family: 'Kanit', sans-serif;
+}
+hr{
+    background-color:cadetblue;
+    height: 2px;
+}
