@@ -1,0 +1,40 @@
+section{
+    display: flex;
+    justify-content: center;
+    margin:70px;
+}
+form{
+    background-color: cadetblue;
+    font-size: 25px;
+    font-family: 'Kanit', sans-serif;
+    width: 700px;
+}
+input{
+    display:block;
+    margin-bottom:1em;
+}
+.duration{
+    display: flex;
+    justify-content: space-around;
+
+}
+input:checked + label{
+    color:black;
+}
+.textbox{
+    width: 444px;
+    height: 100px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin:20px;
+}
+button{
+    background-color:dimgray;
+    color: aliceblue;
+    height: 50px;
+    width: 200px;
+    font-size: large;
+    font-family: 'Kanit', sans-serif;
+}

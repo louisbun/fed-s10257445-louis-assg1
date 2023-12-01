@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booking</title>
+    <link href="booking.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&family=Kanit&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header><div w3-include-HTML="header.html"></div></header>
+    <section>
+        <form method ="GET">
+            <label for = 'fullName'>Enter your full name:</label>
+            <input type="text" id="fullName" placeholder="Full Name" size="44">
+            <br>
+
+            <label for ='contact'>Enter your contact number:</label>
+            <input type="number" id="contact" placeholder="Contact Number">
+            <br>
+
+            <label for="email">Enter your email address:</label>
+            <input type="email" id="email" placeholder="Email" size="44" required>
+            <br>
+
+            <label for="date">Choose the date and time of performace:</label>
+            <input type="datetime-local" id="date">
+            <br>
+
+ 
+            <legend>Select the duration of performace:</legend>
+            <div class ='duration'>
+                <div>
+                    <input type="radio" id="1" name="duration">
+                    <label for='1'>1hr</label>
+                </div>
+                <div>
+                    <input type="radio" id="2" name="duration">
+                    <label for='2'>2hr</label>
+                </div>
+                <div>
+                    <input type="radio" id="3" name="duration">
+                    <label for='3'>3hr</label>
+                </div>
+            </div>
+            <br>
+
+            <label for="request">Any special request? Please specify down below:</label>
+            <input class ='textbox' type="text" id="request">
+            <br>
+
+            <div class="button"><button type="submit" value="Submit">Submit</button></div>
+        </form>
+    </section>
+
+
+    <script src="w3-include-HTML.js"></script>
+</body>
+</html>
