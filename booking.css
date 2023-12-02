@@ -42,3 +42,15 @@ button{
     font-size: large;
     font-family: 'Kanit', sans-serif;
 }
+@media(max-width: 450px){
+    section{
+        flex-direction: column;
+        margin: 0px;
+    }
+    form{
+        max-width: 425px;
+    }
+    .textbox{
+        width: 417px;
+    }
+}

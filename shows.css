@@ -6,15 +6,13 @@
 .detail{
     background-color:darkslategray;
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items:center;
     height:70px;
-    margin-right: 100px;
+    margin-right: 70px;
     width: 1250px;
 }
 .detail p{
-    margin-left: 80px;
-    margin-right: 100px;
     font-size: larger;
     font-family: 'Kanit', sans-serif;
 }
@@ -29,4 +27,20 @@ button{
 hr{
     background-color:cadetblue;
     height: 2px;
+}
+@media(max-width: 450px){
+    .detail{
+        flex-direction: column;  
+        height: 400px;
+        width: 425px;
+    }
+    .show{
+        flex-direction: column;
+        margin: 0px;
+        margin-top: 20px;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+    }
 }
