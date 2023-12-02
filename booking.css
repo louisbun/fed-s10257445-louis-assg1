@@ -9,6 +9,10 @@ form{
     font-family: 'Kanit', sans-serif;
     width: 700px;
 }
+h3{
+    display: flex;
+    justify-content: center;
+}
 input{
     display:block;
     margin-bottom:1em;
