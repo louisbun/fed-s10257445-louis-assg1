@@ -1,0 +1,22 @@
+section{
+    display:flex;
+    justify-content: space-around;
+    margin:25px;
+}
+img{
+    height: 325px;
+    width: 325px;
+}
+p{
+    color: cadetblue;
+    font-family: 'Kanit', sans-serif;
+}
+@media(max-width: 450px){
+    img{
+        width: 180px;
+        height:180px;
+    }
+    section{
+        flex-wrap:wrap;
+    }
+}
