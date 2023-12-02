@@ -21,5 +21,20 @@ h1{
 }
 .profile{
     height: 410px;
-    width: 420px;
+    width: 425px;
+}
+@media(max-width: 450px){
+    .container{
+        flex-direction: column;
+    }
+    .profile{
+        position: absolute;
+        height:550px;
+        opacity: 0.5;
+    }
+    .about{
+        position: relative;
+        order:1;
+    }
+
 }
